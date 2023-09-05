@@ -28,7 +28,7 @@
   <img [src]="images[currentPage].url" />
 </div>
 
-<div appClass [backgroundColor]="'hotpink'" class="m-3 text-white fs-4 fw-bolder" [ngSwitch]="currentPage">
+<div [appClass]="'hotpink'" class="m-3 text-white fs-4 fw-bolder" [ngSwitch]="currentPage">
   <div *ngSwitchCase="0">
     Current Page is One
   </div>
